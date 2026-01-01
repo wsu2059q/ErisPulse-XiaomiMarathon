@@ -131,7 +131,6 @@ class XiaomiMarathonGame:
         self.sdk = sdk
         self.logger = sdk.logger
         self.adapter = sdk.adapter
-        self.util = sdk.util
         
         # 游戏状态存储
         self.active_sessions = {}
